@@ -1,0 +1,48 @@
+{
+  "patients": [
+    {
+      "id": "P001",
+      "name": "John Doe",
+      "age": 45,
+      "gender": "Male",
+      "medications": [
+        {
+          "name": "Atorvastatin",
+          "dosage": "10mg",
+          "frequency": "Once daily",
+          "start_date": "2025-04-01",
+          "end_date": "2025-05-01",
+          "status": "Ongoing"
+        },
+        {
+          "name": "Metformin",
+          "dosage": "500mg",
+          "frequency": "Twice daily",
+          "start_date": "2025-03-15",
+          "end_date": "2025-06-15",
+          "status": "Ongoing"
+        }
+      ],
+      "appointments": [
+        {
+          "appointment_id": "A001",
+          "date": "2025-04-10",
+          "time": "10:30 AM",
+          "doctor": "Dr. Smith",
+          "purpose": "Routine Check-up",
+          "status": "Scheduled"
+        }
+      ],
+      "health_logs": [
+        {
+          "log_id": "HL001",
+          "date": "2025-04-06",
+          "blood_pressure": "120/80",
+          "glucose_level": "95 mg/dL",
+          "weight": "180 lbs",
+          "notes": "Feeling well"
+        }
+      ]
+    }
+  ]
+}
